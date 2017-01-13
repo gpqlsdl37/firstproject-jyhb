@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    android:orientation="horizontal"
+    tools:context=".mypage">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="230dp"
+            android:layout_height="31dp"
+            android:text="         suggest word"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:id="@+id/buttonsave" />
+
+        <Button
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:id="@+id/deletebutton"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="370dp"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp"
+        android:src="@drawable/paint"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="right" />
+</LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:text="My"
+        android:id="@+id/buttonmy"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>

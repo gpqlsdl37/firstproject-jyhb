@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.usr.grim.sharedraw"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/buttonid"
+            android:text="GttK"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="128dp"
+            android:src="@drawable/gk"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:layout_width="28dp"
+            android:layout_height="25dp"
+            android:src="@drawable/heart"
+            android:scaleType="fitXY"
+            android:padding="0dp" />
+        <TextView
+            android:layout_width="248dp"
+            android:layout_height="3dp"
+            android:background="#090909"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="bini3_7"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="128dp"
+            android:src="@drawable/jyhb"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:layout_width="28dp"
+            android:layout_height="25dp"
+            android:src="@drawable/heart"
+            android:scaleType="fitXY"
+            android:padding="0dp" />
+        <TextView
+            android:layout_width="248dp"
+            android:layout_height="3dp"
+            android:background="#090909"/>
+    </LinearLayout>
+
+
+</LinearLayout>
